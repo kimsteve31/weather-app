@@ -1,14 +1,14 @@
-import "./App.css";
-import Header from "./components/Header";
+import "./App.css"
+import Weather from "./components/Weather"
 
 function App() {
   return (
     <div className="app">
-      <div className="component">
-        <Header />
+      <div className="container">
+        <Weather />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

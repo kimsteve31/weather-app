@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 
-const apikey = "293654892b0f5bc51277be1582f034ca"
+const apikey = "6"
 
 export const Weather = () => {
   const [location, setLocation] = useState("")
